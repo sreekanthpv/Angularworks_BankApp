@@ -1,0 +1,24 @@
+<div class="container m-5">
+    <a routerLink="/dashboard" class="btn btn-primary">Home</a>
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <table class="table con">
+                <thead>
+                    <tr>
+                        <th>amount</th>
+                        <th>type</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr *ngFor="let t of transactions">
+                        <th>{{t.amt}}</th>
+                        <th>{{t.type}}</th>
+                    </tr>
+                </thead>    
+            </table>
+        </div>
+        <div class="col-4"> </div>
+    </div>
+</div>
+
