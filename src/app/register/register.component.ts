@@ -9,7 +9,7 @@ import { DataService } from '../services/data.service';
   styleUrls: ['./register.component.css']
 })
 export class RegisterComponent implements OnInit {
-
+ v="hello"
   // uname=""
   // accountno=""
   // password=""
